@@ -1,4 +1,4 @@
-* {
+  * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -119,6 +119,7 @@ p {
     display: inline-block;
 /* Changed margin to percentage so content and benefits can display correctly in a smaller window */
     margin-left: 2%;
+    height: 100%;
 }
 
 /* Combined classes with same property values */
@@ -126,17 +127,14 @@ p {
 .online-reputation-management,
 .search-engine-optimization {
     /* Changed height to percentage so that the three boxes and two margins in between them take up 100% of space as evenly as possible */
-    margin-bottom: 1.5%;
+    margin-bottom: 20px;
     padding: 50px;
     /* Changed height to percentage so the box will increase if the viewport is reduced */
-    height: 30.33%;
+    height: 300px%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-/* Changed height so that the three boxes and two margins take up 100% of space as evenly as possible */
-.online-reputation-management{
-    height: 30.34%;
+    overflow: hidden;
 }
 
 /* Combined classes with same property values */
