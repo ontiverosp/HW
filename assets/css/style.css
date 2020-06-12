@@ -19,7 +19,20 @@ p {
     font-size: 16px;
 }
 
-.header {
+/* Moved element above class (p) */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Moved element above class (p) */
+footer h2 {
+    font-size: 20px;
+}
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -28,17 +41,17 @@ p {
     overflow: hidden;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* changed element to match changes done to html (nav) */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,11 +59,11 @@ p {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -90,25 +103,19 @@ p {
 }
 
 /* Combined classes with same property values */
-.benefit-cost,
-.benefit-brand,
-.benefit-lead {
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Combined classes with same property values */
-.benefit-cost h3,
-.benefit-brand h3,
-.benefit-lead h3 {
+.benefit h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Combined classes with same property values */
-.benefit-cost img,
-.benefit-brand img,
-.benefit-lead img {
+.benefit img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -117,15 +124,14 @@ p {
 .content {
     width: 75%;
     display: inline-block;
+
 /* Changed margin to percentage so content and benefits can display correctly in a smaller window */
     margin-left: 2%;
     height: 100%;
 }
 
 /* Combined classes with same property values */
-.social-media-marketing,
-.online-reputation-management,
-.search-engine-optimization {
+.services{
     /* Changed height to percentage so that the three boxes and two margins in between them take up 100% of space as evenly as possible */
     margin-bottom: 20px;
     padding: 50px;
@@ -138,30 +144,17 @@ p {
 }
 
 /* Combined classes with same property values */
-.social-media-marketing img,
-.online-reputation-management img,
-.search-engine-optimization img {
+.services img {
     max-height: 200px;
 }
 
 /* Combined classes with same property values */
-.social-media-marketing h2
-.online-reputation-management h2
-.search-engine-optimization h2 {
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-.footer h2 {
-    font-size: 20px;
-}
 
 
 /* Uncomment to have a scrolling backdrop and header */
